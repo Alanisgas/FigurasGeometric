@@ -1,4 +1,4 @@
-package main.java.domain;
+package domain;
 
 public class CircleOperationPerimeter {
     public static double calculatePerimeter(IShape iShape){

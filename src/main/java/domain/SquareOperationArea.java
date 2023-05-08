@@ -1,4 +1,4 @@
-package main.java.domain;
+package domain;
 
 public class SquareOperationArea {
     public static double calculateArea(Square square) {

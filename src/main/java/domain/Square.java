@@ -1,4 +1,4 @@
-package main.java.domain;
+package domain;
 
 public class Square extends GeometricFigures implements IShape{
     protected double side;

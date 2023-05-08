@@ -1,4 +1,4 @@
-package main.java.domain;
+package domain;
 
 public interface IShapeArea {
     double area();

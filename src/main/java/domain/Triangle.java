@@ -1,4 +1,4 @@
-package main.java.domain;
+package domain;
 
 public class Triangle extends GeometricFigures implements IShape{
     private double base;

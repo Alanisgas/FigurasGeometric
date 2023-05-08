@@ -1,10 +1,20 @@
-package main.java.test;
+package test;
 
-import main.java.domain.*;
+import db.CircleBd;
+import domain.*;
 
+import org.hibernate.Hibernate;
+import org.hibernate.HibernateException;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+import org.springframework.boot.SpringApplication;
 
 public class Test {
     public static void main(String[] args) {
+        SpringApplication.run(Test.class, args);
+
+
+
         Circle circle= new Circle(5);
         double areaCircle = CircleOperationArea.calculateArea(circle);
         double perimeterCircle = CircleOperationPerimeter.calculatePerimeter(circle);
@@ -18,4 +28,5 @@ public class Test {
         area= TriangleOperationPerimeter.calculatePerimeter(triangle1);
 
     }
+
 }

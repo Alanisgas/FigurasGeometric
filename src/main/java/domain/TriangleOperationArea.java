@@ -1,4 +1,4 @@
-package main.java.domain;
+package domain;
 
 public class TriangleOperationArea {
     public static double calculateArea(IShape iShape){

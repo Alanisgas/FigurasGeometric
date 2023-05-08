@@ -1,4 +1,4 @@
-package main.java.domain;
+package domain;
 
 public class TriangleOperationPerimeter {
     public static double calculatePerimeter(Triangle iShape){
